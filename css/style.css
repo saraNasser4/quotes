@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #3aafa9;
+}
+
+::selection {
+    background-color: #2b7a78;
+    color:#feffff;
+}
+
+.container {
+    position: absolute;
+    translate: -50% -50%;
+    width: 100%;
+    max-width: 560px;
+    top: 50%;
+    left: 50%;
+    background-color: #feffff;
+    padding: 25px 15px;
+    border-radius: 5px;
+    color: #17252a;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.container .quoter {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .quoter .q-holder {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.container .quoter .q-holder::before {
+    content: '❝';
+    font-size: 27px;
+    padding-right: 5px;
+}
+.container .quoter .q-holder::after {
+    content: '❞';
+    font-size: 27px;
+    margin-left: 5px;
+}
+
+.container .quoter .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+}
+.container .quoter .author::before {
+    content: '—';
+    padding-right: 3px;
+}
+
+.container .line {
+    color: #17252ab0;
+    border-top: 1px solid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .footer {
+    margin: 20px 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .footer .icons {
+    font-size: 18px;
+}
+
+.container .footer .icons i {
+    margin-right: 10px;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 100%;
+    cursor: pointer;
+    color:#3aafa9;
+    transition: 0.3s;
+}
+.container .footer .icons i:hover {
+    color: #2b7a78;
+}
+
+.container .footer .btn {
+    background-color: #3aafa9;
+    color:#feffff;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid #3aafa9;
+    cursor: pointer;
+} 
+.container .footer .btn:hover {
+    color:#3aafa9;
+    background-color: transparent;
+    border: 1px solid #3aafa9;
+}
+
+
+/* #17252a black, #2b7a78 havy blue, #def2f1 white wiste, #feffff kinda white*/
